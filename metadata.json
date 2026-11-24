@@ -1,0 +1,8 @@
+{
+  "name": "Liceo Psicopedagógico Paola - Sistema de Gestión Escolar",
+  "description": "Plataforma integral de gestión escolar: control biométrico/NFC de asistencia, observador del alumno y agenda digital, gestión de pensiones, horarios y manual de convivencia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
