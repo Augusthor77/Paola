@@ -9,7 +9,7 @@
 <meta property="og:title" content="Liceo Psicopedagógico Paola - Sistema de Gestión Escolar">
 <meta property="og:description" content="Sistema Integral de Gestión Educativa del Liceo Psicopedagógico Paola (Terranova, Jamundí).">
 <meta property="og:type" content="website">
-<link rel="icon" type="image/png" href="/assets/aistudio/image_c40ec28d.png">
+<link rel="icon" type="image/png" href="./assets/aistudio/image_c40ec28d.png">
 <script src="https://cdn.tailwindcss.com/3.4.17"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <script>tailwind.config={theme:{extend:{colors:{brand:{green:'#006837',blue:'#0e3a6c',gold:'#d4af37'}}}}}</script>
@@ -19,7 +19,7 @@
 
 <div id="login" class="fixed inset-0 z-50 bg-brand-blue flex items-center justify-center p-4">
  <div class="bg-white rounded-3xl max-w-md w-full p-6 space-y-4 shadow-2xl">
-  <div class="text-center"><div class="w-24 h-24 mx-auto rounded-full p-1 bg-white border border-blue-200 shadow-sm mb-2 flex items-center justify-center"><img src="/assets/aistudio/image_c40ec28d.png" alt="Liceo Paola" class="w-full h-full object-contain rounded-full"></div><h2 class="text-xl font-bold">Liceo Psicopedagógico Paola</h2><p class="text-xs text-slate-500">Terranova • Jamundí — Sistema Integral de Gestión Educativa</p></div>
+  <div class="text-center"><div class="w-24 h-24 mx-auto rounded-full p-1 bg-white border border-blue-200 shadow-sm mb-2 flex items-center justify-center"><img src="./assets/aistudio/image_c40ec28d.png" alt="Liceo Paola" class="w-full h-full object-contain rounded-full"></div><h2 class="text-xl font-bold">Liceo Psicopedagógico Paola</h2><p class="text-xs text-slate-500">Terranova • Jamundí — Sistema Integral de Gestión Educativa</p></div>
   <form onsubmit="doLogin(event)" class="space-y-3">
    <input id="u" value="direccion" class="w-full text-sm p-3 border rounded-xl" placeholder="Usuario">
    <input id="p" type="password" value="666999" class="w-full text-sm p-3 border rounded-xl" placeholder="Contraseña">
@@ -37,7 +37,7 @@
 
 <header class="bg-brand-blue text-white sticky top-0 z-40 shadow">
  <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between gap-2">
-  <div class="flex items-center gap-3"><div class="w-10 h-10 rounded-full p-0.5 bg-white border border-white/40 shadow-xs shrink-0 flex items-center justify-center overflow-hidden"><img src="/assets/aistudio/image_c40ec28d.png" alt="Liceo Paola" class="w-full h-full object-contain rounded-full"></div><div><h1 class="font-bold text-sm md:text-base leading-tight">Liceo Psicopedagógico Paola</h1><p class="text-[11px] text-amber-300">Terranova • Jamundí, Valle del Cauca</p></div></div>
+  <div class="flex items-center gap-3"><div class="w-10 h-10 rounded-full p-0.5 bg-white border border-white/40 shadow-xs shrink-0 flex items-center justify-center overflow-hidden"><img src="./assets/aistudio/image_c40ec28d.png" alt="Liceo Paola" class="w-full h-full object-contain rounded-full"></div><div><h1 class="font-bold text-sm md:text-base leading-tight">Liceo Psicopedagógico Paola</h1><p class="text-[11px] text-amber-300">Terranova • Jamundí, Valle del Cauca</p></div></div>
   <div class="flex items-center gap-2">
    <div class="hidden sm:block text-right"><b id="hn" class="block text-xs"></b><span id="hr" class="text-[10px] text-amber-300"></span></div>
    <select id="rs" onchange="setRole(this.value)" class="bg-white/10 border border-white/20 text-xs rounded-lg px-2 py-1.5"><option class="text-black" value="admin">🛡️ Administración</option><option class="text-black" value="profesor">👨‍🏫 Docente</option><option class="text-black" value="acudiente">👨‍👩‍👧 Acudiente</option></select>
